@@ -45,7 +45,19 @@ namespace WebApplication4.Repository
 
                     }
                 }
-                string description = "Sample Description";
+                
+
+                
+                //watch.Stop();
+                //var elapsedMs = watch.ElapsedMilliseconds;
+                //ViewBag.TimeElapsed = (elapsedMs / 1000).ToString();
+                //ViewBag.RecordsCount = recordsCount.ToString();
+            }
+            NpgsqlConnection sqlCon1 = null;
+            try {
+            sqlCon1 = new NpgsqlConnection(Config.ConnectionString);
+            sqlCon1.Open();
+            string description = "Sample Description";
                 string address = "Sample address";
                 string state = "GA";
                 string country = "USA";
@@ -55,14 +67,12 @@ namespace WebApplication4.Repository
                 string latitude = "33.78411";
                 string longitude = "-84.380803";
                 NpgsqlCommand newCmd = new NpgsqlCommand("insert into property values('"+ description + "','" + address + "','" + state + "','" + country 
-                + "','" + subdivision + "','" + date + "','" + price + "','" + latitude + "','" + longitude + "')", sqlCon);
+                + "','" + subdivision + "','" + date + "','" + price + "','" + latitude + "','" + longitude + "')", sqlCon1);
                 newCmd.ExecuteNonQuery();
-
-                
-                //watch.Stop();
-                //var elapsedMs = watch.ElapsedMilliseconds;
-                //ViewBag.TimeElapsed = (elapsedMs / 1000).ToString();
-                //ViewBag.RecordsCount = recordsCount.ToString();
+            }catch (NpgsqlException Npgsqlex) {
+                Console.WriteLine(Npgsqlex);
+            } finally {
+                sqlCon1.Close();
             }
             return property;
         }
