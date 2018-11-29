@@ -45,6 +45,20 @@ namespace WebApplication4.Repository
 
                     }
                 }
+                string description = "Sample Description";
+                string address = "Sample address";
+                string state = "GA";
+                string country = "USA";
+                string subdivision = "Atlanta";
+                string date = "7/21/2015";
+                string price = "499990";
+                string latitude = "33.78411";
+                string longitude = "-84.380803";
+                NpgsqlCommand newCmd = new NpgsqlCommand("insert into property values('"+ description + "','" + address + "','" + state + "','" + country 
+                + "','" + subdivision + "','" + date + "','" + price + "','" + latitude + "','" + longitude + "')", sqlCon);
+                newCmd.ExecuteNonQuery();
+
+                
                 //watch.Stop();
                 //var elapsedMs = watch.ElapsedMilliseconds;
                 //ViewBag.TimeElapsed = (elapsedMs / 1000).ToString();
