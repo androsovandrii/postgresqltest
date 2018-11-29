@@ -1,0 +1,11 @@
+/home/andrii/Documents/Projects/heroku-dotnetcore-test2/src/obj/Debug/netcoreapp2.1/WebApplication4.csprojAssemblyReference.cache
+/home/andrii/Documents/Projects/heroku-dotnetcore-test2/src/obj/Debug/netcoreapp2.1/WebApplication4.csproj.CoreCompileInputs.cache
+/home/andrii/Documents/Projects/heroku-dotnetcore-test2/src/obj/Debug/netcoreapp2.1/WebApplication4.AssemblyInfoInputs.cache
+/home/andrii/Documents/Projects/heroku-dotnetcore-test2/src/obj/Debug/netcoreapp2.1/WebApplication4.AssemblyInfo.cs
+/home/andrii/Documents/Projects/heroku-dotnetcore-test2/src/bin/Debug/netcoreapp2.1/WebApplication4.deps.json
+/home/andrii/Documents/Projects/heroku-dotnetcore-test2/src/bin/Debug/netcoreapp2.1/WebApplication4.runtimeconfig.json
+/home/andrii/Documents/Projects/heroku-dotnetcore-test2/src/bin/Debug/netcoreapp2.1/WebApplication4.runtimeconfig.dev.json
+/home/andrii/Documents/Projects/heroku-dotnetcore-test2/src/bin/Debug/netcoreapp2.1/WebApplication4.dll
+/home/andrii/Documents/Projects/heroku-dotnetcore-test2/src/bin/Debug/netcoreapp2.1/WebApplication4.pdb
+/home/andrii/Documents/Projects/heroku-dotnetcore-test2/src/obj/Debug/netcoreapp2.1/WebApplication4.dll
+/home/andrii/Documents/Projects/heroku-dotnetcore-test2/src/obj/Debug/netcoreapp2.1/WebApplication4.pdb

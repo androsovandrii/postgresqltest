@@ -66,7 +66,7 @@ namespace WebApplication4.Repository
                 string price = "499990";
                 string latitude = "33.78411";
                 string longitude = "-84.380803";
-                NpgsqlCommand newCmd = new NpgsqlCommand("insert into property values('"+ description + "','" + address + "','" + state + "','" + country 
+                NpgsqlCommand newCmd = new NpgsqlCommand("insert into property values('219','"+ description + "','" + address + "','" + state + "','" + country 
                 + "','" + subdivision + "','" + date + "','" + price + "','" + latitude + "','" + longitude + "')", sqlCon1);
                 newCmd.ExecuteNonQuery();
             }catch (NpgsqlException Npgsqlex) {
