@@ -1,17 +1,17 @@
 # Sample deployable code using .NET Core 2.1 Buildpack for Heroku with Heroku Postgres
 ## by Softtrends LLC
 
-This Sample code uses [.Net Core 2.1 Buildpack by Softtends](https://github.com/heroku-softtrends/dotnetcore2.postgres.buildpack) and adds full support for Heroku Postgres<br>
+This Sample code uses [.Net Core 2.1 Buildpack by Softtends](https://github.com/heroku-softtrends/dotnetcore2.postgres.buildpack) and adds full support for Heroku Postgres      <br>
 
 We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
 
 You've created a new ASP.NET Core MVC project. [Learn what's new](https://go.microsoft.com/fwlink/?LinkId=518016)
 
 <br/>
-You can deploy this ASP.Net MVC website on Heroku server by clicking below button
+You can deploy this ASP.Net MVC website on Heroku server by clicking below button: 
 <br/>
 <br/>
-<a href="https://heroku.com/deploy?template=https://github.com/androsovandrii/postgresqltest/tree/master">
+<a href="https://heroku.com/deploy?template=https://github.com/WeDo-Soft/heroku-dotnetcore-test2/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 
